@@ -1,0 +1,57 @@
+#!name=自用脚本合集
+#!desc=最后更新时间 2022-09-18
+#!system=ios
+
+# 分割线——————————————————————————
+
+[Rule]
+# > 真不卡
+DOMAIN-SUFFIX, ttayy.cn, REJECT
+DOMAIN-SUFFIX, zhengxiaoliu.top, REJECT
+# > NicoNico
+DOMAIN, ads.nicovideo.jp, REJECT
+# > 美颜相机去首页和轮播广告
+DOMAIN, adui.tg.meitu.com, REJECT
+DOMAIN, aaid.uyunad.com, REJECT
+# > 爱奇艺广告屏蔽
+IP-CIDR, 203.107.63.154/32, REJECT, no-resolve
+# > 多多视频去开屏广告
+DOMAIN-SUFFIX, bayescom.com, REJECT
+# > 车来了（包括小程序）
+DOMAIN-SUFFIX, atrace.chelaile.net.cn, REJECT
+DOMAIN, logs.chelaile.net.cn, REJECT
+DOMAIN, ad.chelaile.net.cn, REJECT
+# > 铁路12306
+DOMAIN, ad.12306.cn, REJECT
+# > 两步路
+DOMAIN-SUFFIX, admobile.top, REJECT
+# > 屏蔽YouTube的UDP
+AND,((PROTOCOL,UDP),(DOMAIN-SUFFIX,googlevideo.com)),REJECT-NO-DROP
+
+# 分割线——————————————————————————
+
+[URL Rewrite]
+# > 油管去广告
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - REJECT
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - REJECT
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - REJECT
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - REJECT
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - REJECT
+
+# 分割线——————————————————————————
+
+[Script]
+TIDAL解锁HiFi Plus = type=http-request, pattern=^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)), requires-body=0, script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+Proknockout解锁会员 = type=http-response, pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt, requires-body=1, max-size=0, script-path=http://ox.xmkczs.com/quantumultX/proknockout-vip.js
+Gear浏览器破解内购 = type=http-response, pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js
+淘票票豆瓣评分 = type=http-response, pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopshowapi\.getextendshowbyid, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/TaoPiaoPiao/taopiaopiao.js
+迅雷SVIP = type=http-response, pattern=^https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/zkyary/Surge/main/Script/xunlei.js
+Document解锁编辑 = type=http-response, pattern=^https?:\/\/license\.pdfexpert\.com\/api\/\d\.\d\/\w{9}\/\w{12}\/(state$|refresh$|check$), requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/documents.js
+Web豆瓣电影和电视剧添加便捷播放按钮 = type=http-response, pattern=^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/I-am-R-E/Surge/main/JavaScript/DouBan.js
+Google自动翻页 = type=http-response, pattern=^https?:\/\/www\.google\..*\/search, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/endlessgoogle.js
+
+# 分割线——————————————————————————
+
+[MITM]
+hostname = api.tidal.com, buy.itunes.apple.com, guide-acs.m.taobao.com, xluser-ssl.xunlei.com, license.pdfexpert.com, m.douban.com, www.google.*, -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
