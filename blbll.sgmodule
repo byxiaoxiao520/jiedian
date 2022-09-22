@@ -1,0 +1,11 @@
+#!name=哔哩哔哩
+#!desc=哔哩哔哩解锁
+#!homepage=https://github.com/
+#!author=哔哩哔哩
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/calculator.png
+
+[MITM]
+hostname = *.bilibili.*
+
+[Script]
+哔哩哔哩=type=http-request,pattern= ^http[s]:\/\/(.*.bilibili.com),script-path= https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/bilibili.js,requires-body=1
