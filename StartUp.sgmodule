@@ -20,3 +20,40 @@ hostname = explorer.tratao.com, overseas.weico.cc, 118.178.214.118, dapis.mting.
 ^https?:\/\/gw.aihuishou.com\/app-portal\/home\/getadvertisement url reject
 # > AppSo
 ^https?:\/\/sso.ifanr.com\/jiong\/IOS\/appso\/splash\/ url reject
+# > 爱奇艺
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&dis_dz= url reject-img
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&z=\w url reject-img
+^https?:\/\/.+\/videos\/other\/ url reject
+^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch url reject-img
+# > 阿里巴巴
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
+# > 百度地图开屏广告
+^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(jpg|mp4) url reject
+# > 车来了@ddgksf2013
+^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub url reject-dict
+^https?:\/\/api.chelaile.net.cn\/adpub\/ url reject
+^https?:\/\/api.chelaile.net.cn\/goocity\/advert\/ url reject
+^https?:\/\/atrace.chelaile.net.cn\/adpub\/ url reject
+^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image url reject
+^https?:\/\/pic1.chelaile.net.cn\/adv\/ url reject
+# > Crunchyroll@Marcio2536,看番,无中文字幕,不推荐
+https://beta-api.crunchyroll.com/cms url response-body offset_ms":\d+ response-body offset_ms":99999999999999
+# > 叮咚买菜
+^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ url reject
+# > 嘀嗒出行
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
+# > 豆瓣
+^https://api.douban.com\b.*\/common_ads\?.* url reject
+# > 滴滴出行（推荐英文版）@ddgksf2013
+https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
+https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
+# > 叨鱼去广告@ddgksf2013
+^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd url reject
+# > 斗鱼直播去开屏@kyle
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject
+# > 得物@kyle
+^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ url reject
+# > 动画疯(黑屏30秒)@NobyDa
+^https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\? url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js
+# > 大智慧
+^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson url reject
