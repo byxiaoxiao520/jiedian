@@ -37,7 +37,7 @@ hostname = explorer.tratao.com, overseas.weico.cc, 118.178.214.118, dapis.mting.
 ^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image - reject
 ^https?:\/\/pic1.chelaile.net.cn\/adv\/ - reject
 # > Crunchyroll@Marcio2536,看番,无中文字幕,不推荐
-https://beta-api.crunchyroll.com/cms url response-body offset_ms":\d+ response-body offset_ms":99999999999999
+https://beta-api.crunchyroll.com/cms url response-body offset_ms":\d+ response-body offset_ms":999999999
 # > 叮咚买菜
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
 # > 嘀嗒出行
@@ -184,9 +184,9 @@ http://mangaapi.manhuaren.com/v2/ad/getMultiAdsStrategy - reject
 ^https?:\/\/api\.taou\.com\/sdk\/global\/splash_ad - reject
 ^https?:\/\/track\.mm\.taou\.com/v\d\/track - reject
 # > One去除广告@ddgksf2013
-^http:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad url # > 票根
+^http:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
 # > 票根
-^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject-TINYGIF
+^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject-tinygif
 # > 去哪儿开屏广告@ddgksf2013
 https://homefront.qunar.com/front/splash/ad - reject
 # > 人民日报@ddgksf2013
@@ -298,3 +298,4 @@ https://new-app-api.ylyk.com/v1/user/myinfo/adviser - reject
 ^https?:\/\/api\.izuiyou\.com\/ad\/ - reject
 # > 知乎网页版强制登陆弹窗@HotKids
 ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js - reject
+
