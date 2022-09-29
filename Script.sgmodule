@@ -96,4 +96,4 @@ Web豆瓣电影和电视剧添加便捷播放按钮 = type=http-response, patter
 # 分割线——————————————————————————
 
 [MITM]
-hostname = buy.itunes.apple.com, guide-acs.m.taobao.com, xluser-ssl.xunlei.com, license.pdfexpert.com, m.douban.com,-redirector*.
+hostname = guide-acs.m.taobao.com, xluser-ssl.xunlei.com, license.pdfexpert.com, m.douban.com,-redirector*.
