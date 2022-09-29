@@ -82,18 +82,6 @@ AND,((PROTOCOL,UDP),(DOMAIN-SUFFIX,googlevideo.com)),REJECT-NO-DROP
 # 分割线——————————————————————————
 
 [URL Rewrite]
-# > TikTok
-(?<=_region=)CN(?=&) JP 307
-(?<=&mcc_mnc=)4 2 307
-^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
-(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
-# > 油管去广告
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - REJECT
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - REJECT
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - REJECT
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - REJECT
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - REJECT
 
 # 分割线——————————————————————————
 
@@ -108,4 +96,4 @@ Web豆瓣电影和电视剧添加便捷播放按钮 = type=http-response, patter
 # 分割线——————————————————————————
 
 [MITM]
-hostname = buy.itunes.apple.com, guide-acs.m.taobao.com, xluser-ssl.xunlei.com, license.pdfexpert.com, m.douban.com,-redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
+hostname = buy.itunes.apple.com, guide-acs.m.taobao.com, xluser-ssl.xunlei.com, license.pdfexpert.com, m.douban.com,-redirector*.
