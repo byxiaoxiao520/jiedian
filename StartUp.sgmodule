@@ -8,9 +8,10 @@
 # url reject-img 转 - reject-tinygif
 #删除谷歌和油管 百度输入法放行
 [MITM] 
-hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, news.ssp.qq.com, r.inews.qq.com, magev6.if.qidian.com, mage.if.qidian.com, qidian.qpic.cn, api.pinduoduo.com, flowplus.meituan.net, capis.didapinche.com, capis*.didapinche.com, fmapp.chinafamilymart.com.cn, mi.gdt.qq.com, avoscloud.com, business.msstatic.com, 47.100.65.202, sf?-ttcdn-tos.pstatp.com, api-access.pangolin-sdk-toutiao.com, v.icbc.com.cn, appconf.mail.163.com, homefront.qunar.com, ad.12306.cn, zone.guiderank-app.com, fbchina.flipchina.cn, dl-cu-hz.lechange.cn, *.bdstatic.com, rich.kuwo.cn, m.ctrip.com, dimg04.c-ctrip.com, ms.jr.jd.com, www.bing.com, ddrk.me, www.google.com, m.baidu.com, zhidao.baidu.com, -redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, mapi.weibo.com, *.uve.weibo.com,  app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, s-api.smzdm.com, zhiyou.m.smzdm.com, api.21jingji.com, service.4gtv.tv, app.58.com, gw.alicdn.com, heic.alicdn.com, acs.m.taobao.com, m*.amap.com, gw.kaola.com, api-new.app.acfun.cn, api.bjxkhc.com, issuecdn.baidupcs.com, newclient.map.baidu.com, mime.baidu.com, act.vip.iqiyi.com, intl.iqiyi.com, app.bilibili.com, manga.bilibili.com, app.api.ke.com, yxyapi*.drcuiyutao.com, clientaccess.10086.cn, m.client.10010.com, cloud.189.cn, api.cloud.189.cn, www.cntv.com, cap.caocaokeji.cn, api.caijingmobile.com, gw.csdn.net, api.douban.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, api.dangdang.com, e.dangdang.com, daoyu.sdo.com, maicai.api.ddxq.mobi, mobileapi-v6.elong.com, i.ys7.com, dsa-mfp.fengshows.cn, api.fengshows.com, *-release.wuta-cam.com, gateway.shouqiev.com, dl.app.gtja.com, smkmp.96225.com, imeclient.openspeech.cn, webboot.zhangyue.com, nnapp.cloudbae.cn, icc.one, list-app-m.i4.cn, api.jxedt.com, *.kingsoft-office-service.com, api.kkmh.com, api.club.lenovo.cn, api.m.mi.com, api.jr.mi.com, api-mifit.huami.com, home.mi.com, api.mgzf.com, capi.mwee.cn, v?-api.miaopai.com, mapi.mafengwo.cn, interface*.music.163.com, support.you.163.com, p.du.163.com, app-api.niu.com, gfp.veta.naver.com, pss.txffp.com, api.yangkeduo.com, mrobot.pconline.com.cn, mrobot.buy.itunes.apple.com, pcauto.com.cn, open.qyer.com, media.qyer.com, api.qbb6.com, api.rr.tv, weibointl.api.weibo.cn, tqt.weibo.cn, *.k.sohu.com, *.tv.sohu.com, ap*.smzdm.com, sh-gateway.shihuo.cn, gw-passenger.01zhuanche.com, mpcs.suning.com, ccsp-egmas.sf-express.com, shopic.sf-express.com, api*.futunn.com, ssl.kohsocialapp.qq.com, 4gimg.map.qq.com, mp.weixin.qq.com, m.tuniu.com, api.vistopia.com.cn, thor.weidian.com, api.xiachufang.com, a.qiumibao.com, *.zhuishushenqi.com, syh.zybang.com, api.izuiyou.com, api.weibo.cn, youtubei.googleapis.com, s.youtube.com, youtube.com, wmapi.meituan.com, baidu.com, sf3-be-pack.pglstatp-toutiao.com, ptf.flyertrip.com, helipay.com, web-ms-1300565986.cos.ap-guangzhou.myqcloud.com, game.gtimg.cn, source.qunarzz.com, static.gameplus.qq.com, m.360buyimg.com, api.hanju.koudaibaobao.com, dili.bdatu.com, tc.qq.com, client.qunar.com, *.byteimg.com, byteimg.com.*, *.pstatp.com.*, *.pglstatp-toutiao.com.*, gurd.snssdk.com.*, i.snssdk.com.*, i-lq.snssdk.com, i-lq.snssdk.com.*, ocean.shuqireader.com, message.shuqireader.com, ih2.ireader.com, book.img.ireader.com, apiwz.midukanshu.com, reading-hl.snssdk.com, sf6-be-pack.pglstatp-toutiao.com, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, sofire.baidu.com, ndstatic.cdn.bcebos.com, pan.baidu.com, staticsns.cdn.bcebos.com, *.tieba.baidu.com, j-image.missfresh.cn, m.ads.8le8le.com, m.ads.8le8le.com, iadmusicmat.music.com, aweme.snssdk.com, business-cdn.shouji.sogou.com, pic.u51.com, static.95508.com, m.citiccardcdn.citicbank.com, static.creditcard.hxb.com.cn, image.spdbccc.com.cn, mlmdacdn.spdb.com.cn, cdnmlmda.res.spdb.com.cn, res.yunbusiness.ccb.com, rs.creditcard.cmbc.com.cn, mbs.boc.cn, mlife.jf365.boc.cn, creditcard.bankcomm.com, s3gw.cmbimg.com, api.smzdm.com, img.alicdn.com, ossgw.alicdn.com, btrace.qq.com, d.psbc.com, www.cmbc.com.cn, static.xyzq.cn, mps.95508.com, pic1cdn.cmbchina.com, resource.cmbchina.com, d.zhangle.com, app.zhuanzhuan.com, images.client.vip.xunlei.com, app.yinxiang.com, portal-xunyou.qingcdn.com, dsp-impr2.youdao.com, oral.youdao.com, impservice.dictapp.youdao.com, y.gtimg.cn, gw.aihuishou.com, api.wfdata.club, api.myb6api.com:8080, api.*.xyz, lginstaacademy.com, account.wps.cn, vip1.kuwo.cn, musicpay.kuwo.cn, api.meiyan.com, hjapi.bjxkhc.com, note.youdao.com, account.wps.*, gab.122.gov.cn, fuss10.elemecdn.com, elemecdn.com, cube.elemecdn.com, www1.elecfans.com, consumer.fcbox.com, otheve.beacon.qq.com, mapi.sfbest.com, mbd.baidu.com, img.wukongtv.com, ports3.gtimg.com, static01.versa-ai.com, i0.hdslb.com, grpc.biliapi.net, *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, us.l.qq.com, open.e.kuaishou.com, afd.baidu.com, imcs.citicbank.com, img.dailmo.com, img.allahall.com, app.zhoudamozi.com, mall.zuoyebang.com, adimg.uve.weibo.com, new.vip.weibo.cn, *.google.cn, adstatic.peopleapp.com, img.mcd.cn, iobs.pingan.com.cn, sares.kfc.com.cn, sares.pizzahut.com.cn, gd.10086.cn, osg-static.sgcc.com.cn, yghsh.cebbank.com, mea.meitudata.com, cdn.moji.com, show.api.moji.com, stat.moji.com, cdn2.moji002.com, ast.api.moji.com, ad.api.moji.com, ugc.moji001.com, pic1.chelaile.net.cn, atrace.chelaile.net.cn, api.chelaile.net.cn, web.chelaile.net.cn, www.tsytv.com, ma.ofo.com, supportda.ofo.com, activity2.api.ofo.com, adpai.thepaper.cn, cms.daydaycook.com, api.daydaycook.com, api.haohaozhu.cn, api.huomao.com, richmanapi.jxedt.com, api.laifeng.com, app.variflight.com, kano.guahao.cn, app.wy.guahao.com, app.xinpianchang.com, notch.qdaily.com, app3.qdaily.com, appapi.huazhu.com, ptmpcap.caocaokeji.cn, channel.beitaichufang.com, cmsapi.wifi8.com, cmsfile.wifi8.com, dxy.com, edit.sinaapp.com, games.mobileapi.hupu.com, du.hupucdn.com, img.jiemian.com, ios.lantouzi.com, learn.chaoxing.com, m.ibuscloud.com, m.yap.yahoo.com, mangaapi.manhuaren.com, api.mddcloud.com, mob.mddcloud.com, api.ycapp.yiche.com, cheyouapi.ycapp.yiche.com, res.xiaojukeji.com, ct.xiaojukeji.com, spclient.wg.spotify.com, exp.3g.ifeng.com, ifengad.3g.ifeng.com, iis1.deliver.ifeng.com, adm.10jqka.com.cn, p.kuaidi100.com, cdn.kuaidi100.com, fm.fenqile.com, prom.mobile.gome.com.cn, snailsleep.net, www.nfmovies.com, p1-q.mafengwo.net, adproxy.autohome.com, app2.autoimg.cn, img01.10101111cdn.com, smart.789.image.mucang.cn, 789.kakamobi.cn, dapis.mting.info, static.api.m.panda.tv, pcvideoyd.titan.mgtv.com, www.oschina.net, awg.enmonster.com, api.yikaobang.com.cn, www.babybooks.top,  music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net, subscription-service.neuralprisma.com, apivip.zybang.com, edith.xiaohongshu.com,  api.gamer.com.tw, -res.xiaojukeji.com, 116.85.2.15, 116.85.2.14, aimg.babytreeimg.com, images.cib.com.cn, file.cibfintech.com, img0*.luckincoffeecdn.com, bp-image.bestv.com.cn, cdn.poizon.com, image*.benlailife.com, image2.elife.icbc.com.cn, mbank.grcbank.com, i9.taou.com, news.l.qq.com, l*.51fanli.net, img.gdoil.cn, j5.dfcfw.com, display.wting.info, img.meituan.net, omgup*.xiaojukeji.com, img-ys011.didistatic.com, pi.edaijia.cn, pocketuni.net, restapi.iyunmai.com, www.iyingdi.cn, xyz.cnki.net, xyst.yuanfudao.com, imagev2.tx.xmcdn.com, app.api.versa-ai.com, static1.keepcdn.com, img.admobile.top,  webcdn.m.qq.com, xqimg.imedao.com, *.xima*.*, *.xmcdn.*, pt-starimg.didistatic.com, jiucaigongshe.oss-cn-beijing.aliyuncs.com, static.shihuocdn.cn, ok.166.net, upload-bbs.mihoyo.com,
+hostname = %APPEND% images.cib.com.cn, file.cibfintech.com, yghsh.cebbank.com, mlife.jf365.boc.cn , creditcard.bankcomm.com, v.icbc.com.cn, image2.elife.icbc.com.cn, pic1cdn.cmbchina.com, resource.cmbchina.com, s3gw.cmbimg.com, rs.creditcard.cmbc.com.cn, www.cmbc.com.cn, image.spdbccc.com.cn, cdnmlmda.res.spdb.com.cn, mlmdacdn.spdb.com.cn, res.yunbusiness.ccb.com, static.creditcard.hxb.com.cn, imcs.citicbank.com, m.citiccardcdn.citicbank.com, static.95508.com, mps.95508.com, mbank.grcbank.com, iobs.pingan.com.cn, static.xyzq.cn, d.zhangle.com, j5.dfcfw.com, adm.10jqka.com.cn, dl.app.gtja.com, pic.u51.com, mpcs.suning.com, api.yangkeduo.com, api.pinduoduo.com, acs.m.taobao.com, gw.alicdn.com, gab.122.gov.cn, m*.amap.com, pcvideoyd.titan.mgtv.com, api-new.app.acfun.cn, ddrk.me, www.nfmovies.com, service.4gtv.tv, mp.weixin.qq.com, support.you.163.com, p.du.163.com, interface*.music.163.com, appconf.mail.163.com, *.k.sohu.com, *.tv.sohu.com, business.msstatic.com, api.m.panda.tv, *.bdstatic.com, imeclient.openspeech.cn, business-cdn.shouji.sogou.com, pan.baidu.com, mime.baidu.com, www.baidu.com, m.baidu.com, zhidao.baidu.com, issuecdn.baidupcs.com, newclient.map.baidu.com, baidu.com, sofire.baidu.com, *.tieba.baidu.com, mbd.baidu.com, afd.baidu.com, api.wfdata.club, j-image.missfresh.cn, m.sd.10086.cn, clientaccess.10086.cn, gd.10086.cn, m.client.10010.com, api.cloud.189.cn, cloud.189.cn, m.ctrip.com, dimg04.c-ctrip.com, app.variflight.com, appapi.huazhu.com, api.douban.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, y.gtimg.cn, *.zhuishushenqi.com, mall.zuoyebang.com, syh.zybang.com, apivip.zybang.com, learn.chaoxing.com, e.dangdang.com, api.dangdang.com, capis.didapinche.com, capis*.didapinche.com, app.bilibili.com, manga.bilibili.com, *.bilibili.com, api.live.bilibili.com, api.vc.bilibili.com, open.e.kuaishou.com, ad.12306.cn, homefront.qunar.com, helipay.com, api.kkmh.com, daoyu.sdo.com, static.gameplus.qq.com, ssl.kohsocialapp.qq.com, otheve.beacon.qq.com, 4gimg.map.qq.com, r.inews.qq.com, news.ssp.qq.com, us.l.qq.com, btrace.qq.com, mi.gdt.qq.com, act.vip.iqiyi.com, intl.iqiyi.com, news.l.qq.com btrace.qq.com, api.rr.tv, thor.weidian.com, images.client.vip.xunlei.com, portal-xunyou.qingcdn.com, imagev2.tx.xmcdn.com, *.xmcdn.* *.xima*.*, edith.xiaohongshu.com, ptf.flyertrip.com, 47.100.65.202, m.360buyimg.com, ms.jr.jd.com, m.jd.com, gw.alicdn.com, heic.alicdn.com, img.alicdn.com, ossgw.alicdn.com, app.zhuanzhuan.com, app-api.smzdm.com, homepage-api.smzdm.com, haojia-api.smzdm.com, haojia.m.smzdm.com, baike-api.smzdm.com, s-api.smzdm.com, zhiyou.m.smzdm.com, ap*.smzdm.com, api.smzdm.com, api.weibo.cn, new.vip.weibo.cn, edit.sinaapp.com, dili.bdatu.com, app-api.niu.com, m.tuniu.com, ccsp-egmas.sf-express.com, shopic.sf-express.com, mapi.sfbest.com, game.gtimg.cn, web-ms-1300565986.cos.ap-guangzhou.myqcloud.com, p1-q.mafengwo.net, mapi.mafengwo.cn, mrobot.pconline.com.cn, tqt.weibo.cn, ugc.moji001.com, ad.api.moji.com, cdn.moji.com, show.api.moji.com, stat.moji.com, cdn2.moji002.com, ast.api.moji.com, gurd.snssdk.com.*, i.snssdk.com.*, i-lq.snssdk.com, i-lq.snssdk.com.*, reading-hl.snssdk.com, aweme.snssdk.com, flowplus.meituan.net, wmapi.meituan.com, img.meituan.net, api.jr.mi.com, api-mifit.huami.com, qidian.qpic.cn, magev6.if.qidian.com, mage.if.qidian.com, img.dailmo.com, apiwz.midukanshu.com, sf6-be-pack.pglstatp-toutiao.com, *.pglstatp-toutiao.com.*, be-pack.pglstatp-toutiao.com, access.pangolin-sdk-toutiao.com, sf3-be-pack.pglstatp-toutiao.com, app.58.com, ih2.ireader.com, book.img.ireader.com, app.yinxiang.com, *-release.wuta-cam.com, v?-api.miaopai.com, adproxy.autohome.com, app2.autoimg.cn, img01.10101111cdn.com, gw-passenger.01zhuanche.com, gateway.shouqiev.com, ptmpcap.caocaokeji.cn, cap.caocaokeji.cn, m.ibuscloud.com, open.qyer.com, media.qyer.com, gw.aihuishou.com, list-app-m.i4.cn, mea.meitudata.com, account.wps.*, account.wps.cn, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, vip1.kuwo.cn, musicpay.kuwo.cn, gfp.veta.naver.com, api.hanju.koudaibaobao.com, api.bjxkhc.com, hjapi.bjxkhc.com, pss.txffp.com, cube.elemecdn.com, fuss10.elemecdn.com, elemecdn.com, www1.elecfans.com, consumer.fcbox.com, img.wukongtv.com, app.api.versa-ai.com, static01.versa-ai.com, adstatic.peopleapp.com, notch.qdaily.com, app3.qdaily.com, pic1.chelaile.net.cn, atrace.chelaile.net.cn, api.chelaile.net.cn, web.chelaile.net.cn, api.ycapp.yiche.com, cheyouapi.ycapp.yiche.com, a.qiumibao.com, www.tsytv.com, dsa-mfp.fengshows.cn, api.fengshows.com, xqimg.imedao.com, api.21jingji.com, ma.ofo.com, supportda.ofo.com, activity2.api.ofo.com, adpai.thepaper.cn, img.jiemian.com, api.caijingmobile.com, cms.daydaycook.com, api.daydaycook.com, api.haohaozhu.cn, api.huomao.com, api.izuiyou.com, richmanapi.jxedt.com, 789.kakamobi.cn, smart.789.image.mucang.cn, api.laifeng.com, api.mgzf.com, api.qbb6.com, api.vistopia.com.cn, api.xiachufang.com, channel.beitaichufang.com, api*.futunn.com, app.wy.guahao.com, kano.guahao.cn, dxy.com, app.api.ke.com, capi.mwee.cn, app.xinpianchang.com, cmsapi.wifi8.com, cmsfile.wifi8.com, games.mobileapi.hupu.com, du.hupucdn.com, i.ys7.com, ios.lantouzi.com, fm.fenqile.com, mangaapi.manhuaren.com, api.mddcloud.com, mob.mddcloud.com, res.xiaojukeji.com, ct.xiaojukeji.com, omgup*.xiaojukeji.com, nnapp.cloudbae.cn, p.kuaidi100.com, cdn.kuaidi100.com, spclient.wg.spotify.com, prom.mobile.gome.com.cn, awg.enmonster.com, snailsleep.net, music.snailsleep.net, community.snailsleep.net, nmeditation.snailsleep.net, www.oschina.net, zone.guiderank-app.com, fbchina.flipchina.cn, dl-cu-hz.lechange.cn, api.yikaobang.com.cn, api.gamer.com.tw, img-ys011.didistatic.com, pt-starimg.didistatic.com, aimg.babytreeimg.com, img0*.luckincoffeecdn.com, bp-image.bestv.com.cn, cdn.poizon.com, image*.benlailife.com, i9.taou.com, l*.51fanli.net, img.gdoil.cn, fmapp.chinafamilymart.com.cn, webboot.zhangyue.com, api.club.lenovo.cn, static.shihuocdn.cn, pi.edaijia.cn, pocketuni.net, restapi.iyunmai.com, www.cntv.com, www.iyingdi.cn, xyst.yuanfudao.com, xyz.cnki.net, img.admobile.top, webcdn.m.qq.com, jiucaigongshe.oss-cn-beijing.aliyuncs.com, ok.166.net, upload-bbs.mihoyo.com,
 
 [URL Rewrite]
+
 # > 兴业银行（首页会有一小部分图片误杀）
 ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.(jpg|png)\?ver=20221[0-2]{1} - reject
 ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.(jpg|png)\?ver=20220[6-9]{1} - reject
@@ -22,6 +23,7 @@ hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, ne
 ^https?:\/\/static\.cebbank\.com\/fileDir\/subject\/resource\/sjyhzqtp\/MOBILEBANKAD\/OPENAD\/.*.png - reject
 # > 阳光惠生活
 ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg - reject
+^https?+:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\? - reject
 # > 中国银行
 ^https?+:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\? - reject
 ^https:\/\/mbs.boc.cn\/ubas-mgateway-static\/images\/advertType\/ - reject
@@ -50,6 +52,7 @@ hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, ne
 ^https:\/\/s3gw.cmbimg.com\/mbappinitads\/.*.(jpg|png) - reject
 # > 全民生活
 ^https://rs.creditcard.cmbc.com.cn/mmc/img/126f35586ece469aa2daf2e451ba7b4d.jpg - reject
+
 # > 民生银行（倒计时还在）
 ^https?+:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/ - reject
 ^https:\/\/www\.cmbc\.com\.cn\/m\/image\/banner\/.*.png - reject
@@ -61,6 +64,7 @@ hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, ne
 ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/[a-zA-Z0-9]{24}_[a-zA-Z0-9]{5}\.jpg - reject
 ^https?:\/\/image\.spdbccc\.com\.cn\/group\d\/M00\/[A-Z0-9]{2}\/[A-Z0-9]{2}\/[a-zA-Z0-9]{13}-[a-zA-Z0-9]{11}_[a-zA-Z0-9]{4}\.jpg - reject
 #https://image.spdbccc.com.cn/group2/M00/8B/67/rBsZJmJhUzuAYookAAPZXatr3Jc894.jpg url 302 https://gitee.com/a28413761/tupian/raw/master/ssyy1.jpg
+
 # >  url 302 将前面的链接替换（重定向）为后面的链接
 # > 浦发银行
 ^https?:\/\/cdnmlmda\.res\.spdb\.com\.cn\/oss\/product-mm\/app\/default\/[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{20}_[0-4]{3}x[0-8]{3}.png - reject
@@ -81,6 +85,7 @@ hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, ne
 # > 动卡空间
 ^https?:\/\/m\.citiccardcdn\.citicbank\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/20221[0-9]{1}\d{18}\.(png|jpg) - reject
 ^https?:\/\/m\.citiccardcdn\.citicbank\.com\/citiccard\/mbk\/dkkjv4\/appspace-img\/icon\/20220[0-9]{1}[0-9]{18}\.(png|jpg|PNG) - reject
+
 # > 202205\d{18}\.(png|jpg) - reject  202205后面18位数字的jpg和png格式的图片都拦截。
 # > 发现精彩
 ^https?:\/\/static\.95508\.com\/mmg\/images\/ads\/20220\d{3}\/.*.(png|jpg) - reject
@@ -91,6 +96,7 @@ hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, ne
 # > \d{25}\.(png|jpg) - reject-img 只拦截25位纯数字命名的png和jpg格式图片
 # > 广州农商银行
 ^https?:\/\/mbank\.grcbank\.com\/ydyh\/resources\/startpage\/.*.(jpg|png) - reject
+
 # > 平安好车主
 ^https?:\/\/iobs\.pingan\.com\.cn\/download\/bweb-per-sf-prd\/bweb - reject
 ^https?:\/\/iobs\.pingan\.com\.cn\/download\/icore-aops-base-dmz-prd\/YourSystemName - reject
@@ -125,6 +131,7 @@ hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, ne
 # > 交管12123
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
 ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject
+
 # > 高德地图
 ^https?+:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ - reject
 ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ - reject
@@ -172,6 +179,7 @@ hostname = %APPEND% m.sd.10086.cn,m.jd.com, www.baidu.com, www.google.com.hk, ne
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[]
 # >> 网易新闻
 ^https?+:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
+
 # >> 网易有钱
 ^https?+:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
 # >> 网易严选
@@ -207,6 +215,7 @@ http:\/\/analytics\.163\.com\/ntes - reject
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 ^https?+:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc - reject
 ^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) - reject-img
+
 # > 搜狐
 ^https?+:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject
 ^https?+:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ - reject
@@ -226,17 +235,6 @@ http:\/\/analytics\.163\.com\/ntes - reject
 ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ - reject-img
 # > 熊猫直播
 ^https?:\/\/static\.api\.m\.panda\.tv\/index\.php\?method=clientconf\.firstscreen&__version=(play_cnmb|(\d+\.){0,3}\d+)&__plat=ios&__channel=appstore - reject-img
-# > 抖音去广告, 去水印
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/28413761/QX/main/JS/douyin.js
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/douyin.js
-^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/ - reject
-^https?:\/\/x?log.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/ - reject
-^https?:\/\/.+?\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ - reject
-^https?:\/\/.+\.musical\.ly\/.+stats - reject-img
-^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/aweme\/stats\/ - reject-img
-^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/device\/update\/ - reject-img
-^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/screen\/ad\/ - reject-img
-^https?:\/\/aweme\.snssdk\.com\/service\/2\/app_log - reject-img
 # > 百度地图
 ^https:\/\/dss0.bdstatic.com\/-0U0bnSm1A5BphGlnYG\/ - reject
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg - reject
@@ -275,6 +273,7 @@ http:\/\/analytics\.163\.com\/ntes - reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule - reject
 ^(http:\/\/c\.tieba\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)|https:\/\/afd\.baidu\.com\/afd\/entry) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
 ^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
+
 # > 百度翻译
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
@@ -381,11 +380,6 @@ http:\/\/analytics\.163\.com\/ntes - reject
 ^https?:\/\/e\.dangdang\.com\/media\/api.+?\?action=getDeviceStartPage - reject
 ^https?+:\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
 ^https?+:\/\/e\.dangdang\.com\/.+?getDeviceStartPage - reject
-# > 滴答
-^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ - reject
-^https?:\/\/capis(-?\w*)?\.didapinche\.com\/publish\/api\/upgrade - reject-dict
-^https?+:\/\/www\.didapinche\.com\/app\/adstat\/ - reject
-# > 叮咚买菜
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
 # > BiliBili_哔哩哔哩_屏蔽IP请求
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
@@ -393,8 +387,6 @@ http:\/\/analytics\.163\.com\/ntes - reject
 ^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default - reject
 # > BiliBili_哔哩哔哩_屏蔽首页右上活动[卸载重装]
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity - reject-dict
-# > BiliBili_哔哩哔哩_启动时开启直连模式
-^https?:\/\/api\.bilibili\.com\/x\/offline\/version url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_startup_direct.js
 # > BiliBili_哔哩哔哩_繁体CC字幕转中文简体[自行启用]
 ;^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_cc.js
 # > BiliBili_哔哩哔哩_观影页面去广告
@@ -484,6 +476,7 @@ https://homefront.qunar.com/front/splash/ad - reject
 ^https?:\/\/r\.inews\.qq\.com\/searchHotCatList - reject-img
 ^https?:\/\/r\.inews\.qq\.com\/upLoadLoc - reject-img
 # > 腾讯体育
+
 ^https?:\/\/news\.ssp\.qq\.com\/app - reject
 ^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png - reject
 # > 腾讯QQ音乐
@@ -655,6 +648,7 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ - reject-img
 # > 京东极速版
 ^https:\/\/img11.360buyimg.com\/dl\/jfs\/t1\/195304\/29\/12317\/268480\/60e6fd21E02a8fb2a\/ - reject
+https://api.m.jd.com/client.action\?functionId=lite_advertising - reject
 # > 京东健康
 ^https?:\/\/m\.360buyimg\.com\/babel\/jfs\/t1\/[0-9]{6}\/[0-9]{2}\/[0-9]{5}\/[0-9]{6}\/.*.jpg - reject
 ^https?:\/\/m\.360buyimg\.com\/babel\/jfs\/t1\/180291\/5\/23800\/294871\/625f5da2E13ac0ba3\/230238c767c61b6d\.jpg - reject
@@ -693,8 +687,6 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
 # > 一淘
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash - reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise - reject
-# > 淘票票
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ - reject
 # > 什么值得买去广告
 # > 什么值得买好价详情页
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul - reject
@@ -718,18 +710,6 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
 ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 # > 什么值得买值会员权益中心banner广告
 ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# >> 新浪微博
-^https?:\/\/adimg\.uve\.weibo\.com\/public\/files\/image - reject
-^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php - reject
-^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua - reject
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads - reject
-^https?:\/\/api\.weibo\.cn\/2\/statuses\/extend\?gsid= - reject
-^https?:\/\/simg\.s\.weibo\.com\/.+?_ios\d{2}\.gif - reject-img
-^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4) - reject-img
-# > 删除微博开屏广告
-^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js
-# > 微博去广告
-^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 # > 微博自定义tab皮肤
 ^https://api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 # > 微博非会员设置tab皮肤
@@ -888,8 +868,6 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
 ^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 - reject
 ^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ - reject
 ^http:\/\/.+\.byteimg\.com\/ad-app-package - reject
-# > 雅虎
-^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do - reject
 # > 58
 ^https?+:\/\/.+?\.58cdn\.com\.cn\/brandads\/ - reject
 ^https?+:\/\/app\.58\.com\/api\/home\/invite\/popupAdv - reject
@@ -912,12 +890,6 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
 ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json - reject
 # > 秒拍
 ^https?:\/\/b-api\.ins\.miaopai\.com\/\d\/ad/ - reject
-# >> 有道词典
-^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+adpublish - reject
-^https?:\/\/oimage\w\d\.ydstatic\.com\/image\?.+?=adpublish - reject-img
-^https?+:\/\/dsp-impr2\.youdao\.com\/adload - reject
-^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request - reject-img
-^https?:\/\/oral\.youdao\.com\/oral\/adInfo - reject-img
 # > 汽车之家
 ^https?:\/\/adproxy\.autohome\.com\.cn\/AdvertiseService\/ - reject-img
 ^https?:\/\/app2\.autoimg\.cn\/apppdfs\/ - reject-img
@@ -992,17 +964,6 @@ https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON - reject
 # > 好奇心日报
 ^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad - reject
 ^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
-# > 麦当劳（广告更新太快懒得维护）
-^https?:\/\/img\.mcd\.cn\/cms\/images\/44cb29e1d2d9f5f7\.jpg - reject
-^https?:\/\/img\.mcd\.cn\/cms\/images\/50af5414401d1e20\.jpg - reject
-^https?:\/\/img\.mcd\.cn\/gallery\/cd0b3584cae89f89\.png - reject
-# > 肯德基（广告更新太快懒得维护）
-^https?:\/\/sares\.kfc\.com\.cn\/uatfile\/ad\/20220421\/7db62bcd80e34ec4b3a7fb6792fae85e\.jpg - reject
-^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject-img
-# > 必胜客（广告更新太快懒得维护）
-^https?:\/\/sares\.pizzahut\.com\.cn\/uatfile\/ad\/20220425\/cc252264a9ff4de89c55164cc43ed0ca\.jpg - reject
-^https?:\/\/sares\.pizzahut\.com\.cn\/uatfile\/ad\/20210902\/317484b985014c24a88f68c9dbae5c4c\.jpg - reject
-# > 网上国网（倒计时还在）
 ^https?:\/\/osg-static\.sgcc\.com\.cn\/omg-static\/.*.jpg - reject
 # > 车来了
 ^https?:\/\/pic1.chelaile.net.cn\/adv\/ - reject
@@ -1174,6 +1135,9 @@ https://new-app-api.ylyk.com/v1/user/myinfo/adviser - reject
 ^https:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo - reject
 # > vgTime
 ^http:\/\/app02\.vgtime\.com:8080\/vgtime-app\/api\/v2\/init\/ad\.json url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/vgtime.js
+
+# > vgTime
+^http:\/\/app02\.vgtime\.com:8080\/vgtime-app\/api\/v2\/init\/ad\.json url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/vgtime.js
 # > 快手联盟,优量汇,穿山甲
 ^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
 # > 动画疯(黑屏25秒)
@@ -1185,18 +1149,6 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/.*.jpg - reject
 # > 宝宝树
 ^https?:\/\/aimg\.babytreeimg\.com\/group1\/M00\/*\/*\/.*.jpg - reject
-# > 苹果天气（需要的自己添加主机名）
-# > 1.全部天气数据类型
-# > 2.替换空气质量数据:WAQI
-# > 3.添加下一小时降水:气象在线
-# > 4.替换空气质量地图数据:WAQI
-^https?:\/\/weather-data\.apple\.com\/(v1|v2)\/weather\/.* url request-header If-None-Match:.+\r\n request-header \r\n
-
-^https?:\/\/weather-data\.apple\.com\/(v1|v2)\/availability\/.* url script-response-body  https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.Availability.js
-^https?:\/\/weather-data\.apple\.com\/(v1|v2)\/weather\/.* url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.js
-^https?:\/\/weather-map\.apple\.com\/(v1|v2)\/mapOverlay\/.*(\?.*country=CN.*) url script-request-header  https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.Map.js
-# > 苹果TestFlight App更新时, 提示"APP不可用"问题. 解除区域限制.
-^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$ url script-request-body https://gist.githubusercontent.com/NobyDa/9be418b93afc5e9c8a8f4d28ae403cf2/raw/TF_Download.js
 # > 皮皮虾
 ^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/Super.js
 # > 瑞幸咖啡（倒计时还在）
@@ -1220,6 +1172,7 @@ https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNot
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2022\/1[0-2]{1}\/.*.jpg - reject
 # > 加油广东
 ^https?:\/\/img\.gdoil\.cn\/upload\/ad\/.*.(jpg|png) - reject
+
 # > 全家便利店
 ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/biz\/base\/appversion\/latest - reject
 # > 艺龙旅行网
