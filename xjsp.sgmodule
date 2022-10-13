@@ -1,0 +1,12 @@
+#!name=香蕉视频
+#!desc=香蕉视频会员+去广告
+
+[Header Rewrite]
+https:\/\/(.*\.*apps\.com|o0o0plpl11\.xinai99\.com) header-replace Cookie xxx_api_auth=6537366635666330646135623562356363613831306339383032336439633833
+
+[Script]
+# > 香蕉视频去广告
+香蕉 = type=http-response,pattern=^https?:\/\/.+\/(ucp\/index|getGlobalData|.+\/reqplay\/),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Gx3dong/Surge/master/JS/xjsp.js
+
+[MITM]
+hostname = %APPEND% *.*apps.com, o0o0plpl11.xinai99.com
