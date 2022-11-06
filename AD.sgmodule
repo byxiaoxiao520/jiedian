@@ -1,0 +1,51 @@
+#!name= 屏蔽开屏广告(后续逐步更新)
+#!desc= 更新日期:2022.11.05
+#!system=ios
+
+[URL Rewrite]
+
+#趣听音乐屏蔽升级弹窗
+^https?:\/\/api\.bspapp\.com\/client - reject-dict
+#看书神器屏蔽广告
+^https?:\/\/piq\.in-neo\.cn - reject-dict
+#网速管家屏蔽开屏广告,番茄畅听屏蔽开屏广告
+^https?:\/\/.*\.*toutiao\.com - reject-dict
+#平安好车主屏蔽开屏广告
+^https?:\/\/iobs\.pingan\.com\.cn - reject-dict
+#天翼云盘屏蔽开屏广告
+^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners\.action - reject-dict
+#喜马拉雅屏蔽开屏广告
+^https?:\/\/adse\.ximalaya\.com - reject-200
+#爱奇艺屏蔽开屏广告
+^https?:\/\/kjp\.cupid\.iqiyi\.com - reject-200
+#百度地图屏蔽开屏广告
+^https?:\/\/afd\.baidu\.com - reject-dict
+#汽车之家屏蔽开屏广告
+^https?:\/\/adproxy\.autohome\.com\.cn - reject-200
+#爱思助手屏蔽开屏广告
+^https?:\/\/list\-app\-m\.i4\.cn\/getopfstadinfo\.xhtml - reject-200
+#财新屏蔽开屏广告，需卸载重装
+^https?:\/\/mapiv5\.caixin\.com\/app_api\/device\/getcode - reject-200
+#懂球帝屏蔽开屏广告
+^https?:\/\/ap\.dongqiudi\.com - reject-200
+#作业帮屏蔽开屏广告
+^https?:\/\/syh\.zybang\.com - reject-200
+#铁路12306屏蔽开屏广告
+^https?:\/\/ad\.12306\.cn - reject-200
+#智联招聘屏蔽开屏广告
+^https?:\/\/cgate\.zhaopin\.com - reject-200
+#丰巢屏蔽开屏广告
+^https?:\/\/sdk\.pairmb\.com\/get\/sdk\/ad\/request\.do - reject-200
+#555影视去广告
+^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo - reject-200
+#得物屏蔽开屏广告
+^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ - reject-200
+#斗鱼直播屏蔽开屏广告
+^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject-200
+#高德地图屏蔽开屏广告
+^https?:\/\/m5.amap.com\/ws\/valueadded\/ - reject-200
+#最右屏蔽开屏广告，需要卸载重装
+^https?:\/\/adapi\.izuiyou\.com - reject-200
+
+[MITM]
+hostname = %APPEND% api.bspapp.com,*.*toutiao.com,iobs.pingan.com.cn,api.cloud.189.cn,piq.in-neo.cn,kjp.cupid.iqiyi.com,afd.baidu.com,adse.ximalaya.com,adproxy.autohome.com.cn,list-app-m.i4.cn,mapiv5.caixin.com,ap.dongqiudi.com,syh.zybang.com,ad.12306.cn,cgate.zhaopin.com,sdk.pairmb.com,vip7.fzwdyy.cn,app.dewu.com,rtbapi.douyucdb.cn,m5.amap.com,adapi.izuiyou.com
